@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bank1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewInstructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alfa_slab_one"
+        android:gravity="center"
+        android:padding="60dp"
+        android:text="@string/instructions"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/buttonDBS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#FFEB3B"
+        android:fontFamily="@font/adamina"
+        android:gravity="center"
+        android:padding="30dp"
+        android:text="@string/dbs_english"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonOCBC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#4CAF50"
+        android:fontFamily="@font/adamina"
+        android:gravity="center"
+        android:padding="30dp"
+        android:text="@string/ocbc_english"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonUOB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#3F51B5"
+        android:fontFamily="@font/adamina"
+        android:gravity="center"
+        android:padding="30dp"
+        android:text="@string/uob_english"
+        android:textStyle="bold"
+        android:textAppearance="@android:style/TextAppearance.Large"/>
+
+</LinearLayout>
